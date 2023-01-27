@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario</title>
+    </head>
+    <body>
+        <form action=”resultados.html” method=”GET”>
+            <h1> Formulario de Contacto</h1>
+            <div>
+                <label name="nombre"> Nombre: </label>
+                <input type="text" name="nombre" id="nombre" required />
+            </div>
+            <div>
+                <label name="password"> Contraseña: </label>
+                <input type="password" name="password" id="password" required />
+            </div>
+            <div>
+                <label name="edad"> Edad: </label>
+                <input type="number" name="edad" id="edad" required min="0" />
+            </div>
+            <div>
+                <label name="comentario"> Comentario: </label>
+                <textarea name="comentario" id="comentario" required></textarea>
+            </div>
+            <div>
+                <label name="email"> Email: </label>
+                <input type="email" name="email" id="email" />
+            </div>
+            <div>
+                <label name="nacimiento"> Fecha de nacimiento: </label>
+                <input type="fecha" name="nacimiento" id="nacimiento" />
+            </div>
+            <div>
+                <button type="reset"> Resetear </button>
+                <button type="submit"> Enviar </button>
+            </div>
+        </from>
+    </body>
+</html>
