@@ -1,0 +1,13 @@
+.encabezado {
+    margin: 22px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.articulo-1, .supermercado-1 {
+    color: red
+}
+
+.articulo-1 {
+    font-size: 2rem;
+}
